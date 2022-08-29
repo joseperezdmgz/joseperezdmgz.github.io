@@ -1,0 +1,67 @@
+html.dark-mode {
+  background-color: #1e2936;
+  color: white;
+}
+
+input#dark-mode {
+  display: none;
+}
+.dark-mode-moon {
+  height: 30px;
+}
+html {
+  background-color: white;
+  color: black;
+}
+nav {
+  display: flex;
+  color: white;
+}
+.buttons-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-open > img {
+  height: 20px;
+  color: white;
+}
+.nav-close {
+  display: none;
+}
+ul {
+  display: none;
+  list-style: none;
+}
+
+.img-portada {
+  display: flex;
+  justify-content: center;
+}
+.img-portada > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.name {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 20ch;
+  animation: typing 2s steps(20), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+  margin: auto;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@media (max-width: 700px) {
+}
