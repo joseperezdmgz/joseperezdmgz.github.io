@@ -1,49 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="index.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jose Pérez Domínguez</title>
-  </head>
-  <body>
-    <nav>
-      <div class="buttons-nav">
-        <div>
-          <input
-            type="checkbox"
-            id="dark-mode"
-            onclick="document.documentElement.classList.toggle('dark-mode')"
-          />
-          <label for="dark-mode">
-            <img
-              class="dark-mode-moon"
-              src="https://cdn-icons-png.flaticon.com/512/3026/3026346.png"
-            />
-          </label>
-        </div>
-        <div class="navigation">
-          <a href="#navigation" class="nav-open"
-            ><img src="./img/588a64f5d06f6719692a2d13.png" />
-          </a>
-          <a href="#" class="nav-close"> <span> CERRAR MENÚ </span> </a>
-        </div>
-      </div>
-      <ul>
-        <li><a href="#">Jobs</a></li>
-        <li><a href="#">Studies</a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-      </ul>
-    </nav>
-    <div class="img-portada">
-      <img
-        class="img-portada"
-        src="https://joseperezdmgz.netlify.app/foto.jpeg"
-      />
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="index.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="index.js"></script>
+  <title>Jose Pérez Domínguez</title>
+</head>
+<body>
+  <section id="header">
+    <div>
+      <input type="checkbox" id="dark-mode" onclick="darkmode()" />
+      <label for="dark-mode">
+        <img class="dark-mode-moon" src="https://cdn-icons-png.flaticon.com/512/3026/3026346.png" />
+      </label>
     </div>
-    <div><h1 class="name">Jose Pérez Domínguez</h1></div>
-  </body>
+    <nav class="menu-mobile">
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <aside>
+      <ul>
+        <li><a href="#">Sobre mí</a></li>
+        <li><a href="#">Experiencia</a></li>
+        <li><a href="#">Trabajos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </aside>
+  </section>
+  <article class="cabecera">
+    <div class="img-portada">
+      <img class="img-portada" src="./img/foto.jpeg" />
+    </div>
+    <div>
+      <h1 class="name">Jose Pérez Domínguez</h1>
+    </div>
+  </article>
+</body>
 </html>
