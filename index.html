@@ -4,23 +4,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <link rel="stylesheet" href="index.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
-  <!-- jQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
-    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="index.js"></script>
   <title>Jose Pérez Domínguez</title>
+  <!-- jQuery -->
+  <script src="./assets/js/jquery.js"></script>
+  <!-- Custom -->
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <script src="./assets/js/index.js"></script>
 </head>
 
 <body>
   <section id="header">
     <div>
-      <input type="checkbox" id="dark-mode" onclick="darkmode()" />
+      <input type="checkbox" id="dark-mode" onclick="darkMode()" />
       <label for="dark-mode">
-        <img class="dark-mode-moon" src="https://cdn-icons-png.flaticon.com/512/3026/3026346.png" />
+        <img class="dark-mode-img" src="" alt="img-darkmode" />
       </label>
     </div>
     <nav class="menu-mobile">
@@ -41,7 +39,7 @@
   </section>
   <article id="cabecera">
     <div class="img-portada">
-      <img class="img-portada" src="./img/foto.jpeg" />
+      <img class="img-portada" src="./assets/img/foto.webp" alt="img-portada" />
     </div>
     <div>
       <h1 class="name">Jose Pérez Domínguez</h1>

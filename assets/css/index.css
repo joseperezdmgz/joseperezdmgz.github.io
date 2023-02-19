@@ -1,19 +1,12 @@
-html { --background-primary: #fff; --color-primary: #333; --hover-primary:#319a0b;}
-html.dark-mode {--background-primary: #1e2936; --color-primary: white;  --hover-primary:#edfc56;}
+html { --background-primary: #f7f1e3; --color-primary: #333; --hover-primary:#b33939;}
+html.dark-mode {--background-primary: #1e2936; --color-primary: #f7f1e3;  --hover-primary:#edfc56;}
 html { transition: all 300ms; background: var(--background-primary); color: var(--color-primary);}
 
-@media (prefers-color-scheme: dark) {
-  html {--background-primary: #1e2936; --color-primary: white; --hover-primary:#edfc56;}
-  html.dark-mode { --background-primary: #fff; --color-primary: #333; --hover-primary:#319a0b;}
-}
-
-* {margin: 0px;padding: 0px;outline: none;}
-
-body{font-family: monospace;}
+* {margin: 0px;padding: 0px;outline: none;font-family: monospace, Arial, Helvetica, sans-serif;}
 
 section#header{ display: flex;justify-content: space-between; padding: 10px; }
 section#header input#dark-mode {display: none;}
-section#header .dark-mode-moon {height: 30px;}
+section#header img.dark-mode-img {height: 30px; width: 30px;}
 section#header .menu-mobile{display: none;}
 section#header aside ul{display: flex; flex-direction: row; list-style: none; gap: 40px;}
 section#header aside ul li a{text-decoration: none;  color: var(--color-primary);}
@@ -24,10 +17,8 @@ article#cabecera .img-portada {display: flex;justify-content: center;}
 article#cabecera .img-portada > img {height: 200px;width: 200px;border-radius: 50%;}
 article#cabecera .name {display: block;white-space: nowrap;border-right: 4px solid;width: 20ch;animation: typing 2s steps(20), blink 0.5s infinite step-end alternate;overflow: hidden;margin: auto;padding: 20px 0px; font-size: 30px;}
 
-article#about{}
 article#about h2{ color:var(--hover-primary); text-align: center;}
 article#about p{ text-align: center; width: 40%; margin: 20px auto; font-size: 18px;}
-
 
 
 @keyframes typing {from {width: 0;}}
@@ -41,9 +32,9 @@ article#about p{ text-align: center; width: 40%; margin: 20px auto; font-size: 1
   section#header .menu-mobile .burger.open span:nth-child(1){transform: rotate(45deg);top: 8px;}
   section#header .menu-mobile .burger.open span:nth-child(2) {width: 0;}
   section#header .menu-mobile .burger.open span:nth-child(3) {transform: rotate(-45deg);top: -8px;}
-  section#header aside {position: absolute;width: 100%;height: 100vh;background-color: var(--background-primary);z-index: 998;top: 0;right: 0;width: 0;overflow: hidden;transition: 300ms all; padding-top: 60px;}
+  section#header aside {position: absolute;width: 100%;height: 100vh;background-color: var(--background-primary);z-index: 998;top: 0;right: 0;width: 0;overflow: hidden;transition: 300ms all; padding-top: 20vh;}
   section#header aside.open {width: 100%;}
-  section#header aside ul {flex-direction: column; text-align: center; gap:20px}
+  section#header aside ul {flex-direction: column; text-align: center; gap:10vh;font-size: 30px;}
 
   article#about p{width:80%;}
 }
