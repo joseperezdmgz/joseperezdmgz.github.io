@@ -39,11 +39,11 @@ $(document).ready( () => {
     }
     currentJob=()=>{
         dateIni='Oct. 2022'
-        let fechaInicio = new Date(dateIni);
+        let fechaInicio = new Date("2022-10-01");
         let fechaFin = new Date();
 
-            var years = fechaFin.getFullYear() - fechaInicio.getFullYear();
-            var months = fechaFin.getMonth() - fechaInicio.getMonth();
+            let years = fechaFin.getFullYear() - fechaInicio.getFullYear();
+            let months = fechaFin.getMonth() - fechaInicio.getMonth();
           
             if (months < 0) {
               months += 12;
