@@ -45,5 +45,5 @@ article#about p{ text-align: center; width: 40%; margin: 20px auto; font-size: 1
   section#header aside.open {width: 100%;}
   section#header aside ul {flex-direction: column; text-align: center; gap:20px}
 
-  articlr#about p{width:80%;}
+  article#about p{width:80%;}
 }
