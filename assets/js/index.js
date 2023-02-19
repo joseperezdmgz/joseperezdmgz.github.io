@@ -30,6 +30,8 @@ $(document).ready( () => {
         $(".burger").removeClass('open');
         $("body").css('overflow','auto');
     })
-    })
-    
-    
+    //   $.ajax({url: "index.php",type:  'get', success: function(result){
+    //       console.log(result);
+    //     $("#job_time").text(result);
+    //   }});
+     })
