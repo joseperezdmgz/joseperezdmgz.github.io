@@ -44,4 +44,6 @@ article#about p{ text-align: center; width: 40%; margin: 20px auto; font-size: 1
   section#header aside {position: absolute;width: 100%;height: 100vh;background-color: var(--background-primary);z-index: 998;top: 0;right: 0;width: 0;overflow: hidden;transition: 300ms all; padding-top: 60px;}
   section#header aside.open {width: 100%;}
   section#header aside ul {flex-direction: column; text-align: center; gap:20px}
+
+  articlr#about p{width:80%;}
 }
