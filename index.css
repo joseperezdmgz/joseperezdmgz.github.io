@@ -2,9 +2,13 @@ html { --background-primary: #fff; --color-primary: #333; transition: all 300ms 
 html.dark-mode {--background-primary: #1e2936; --color-primary: white;}
 html { transition: all 300ms; background: var(--background-primary); color: var(--color-primary);}
 
+@media (prefers-color-scheme: dark) {
+  html {--background-primary: #1e2936; --color-primary: white;}
+}
+
 * {margin: 0px;padding: 0px;outline: none;}
 
-section#header{ display: flex;justify-content: space-between; }
+section#header{ display: flex;justify-content: space-between; padding: 10px; }
 section#header input#dark-mode {display: none;}
 section#header .dark-mode-moon {height: 30px;}
 section#header .menu-mobile{display: none;}
@@ -22,7 +26,6 @@ article.cabecera .name {display: block;font-family: monospace;white-space: nowra
 @keyframes blink {50% {border-color: transparent;}}
 
 @media (max-width: 950px) {
-  section#header{ display: flex;justify-content: space-between; }
   section#header div{z-index: 1000;}
   section#header .menu-mobile{display: block; z-index: 1000;}
   section#header .menu-mobile .burger {width: 35px;height: 35px;display: flex;flex-direction: column;gap: 6px;margin-left: auto;}
