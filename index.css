@@ -2,6 +2,7 @@ html { --background-primary: #fff; --color-primary: #333; transition: all 300ms 
 html.dark-mode {--background-primary: #1e2936; --color-primary: white;}
 html { transition: all 300ms; background: var(--background-primary); color: var(--color-primary);}
 
+* {margin: 0px;padding: 0px;outline: none;}
 
 section#header{ display: flex;justify-content: space-between; }
 section#header input#dark-mode {display: none;}
