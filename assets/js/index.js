@@ -6,9 +6,11 @@ $(document).ready( () => {
     }
     if(window.matchMedia("(prefers-color-scheme : dark)").matches){
         $(".dark-mode-img").attr("src","./assets/img/sun.webp");
+        $("html").css("background-image","./assets/img/back-black.wwebp");
         document.documentElement.classList.toggle('dark-mode')
     }else{
         $(".dark-mode-img").attr("src","./assets/img/moon.webp");
+        $("html").css("background-image","./assets/img/back-white.wwebp");
     }
     darkModeImg =()=>{
         let classHtml = document.querySelector('html').classList.value;
