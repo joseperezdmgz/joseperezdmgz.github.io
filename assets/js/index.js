@@ -51,13 +51,7 @@ $(document).ready( () => {
               months += 12;
               years -= 1;
             }
-            if(years == 0){
-                $("#current_job").html(dateIni +" - "+ formatDate(fechaFin)+ " · "+months +" meses")
-            }else if(years >= 1){
-                $("#current_job").html(dateIni +" - "+ formatDate(fechaFin)+ " · "+years +" año"+ " "+months +" meses")
-            }else{
-                $("#current_job").html(dateIni +" - "+ formatDate(fechaFin)+ " · "+years +" años"+ " "+months +" meses")
-            }
+            $("#current_job").html(dateIni +" - "+ formatDate(fechaFin)+ " · "+ years + (years == 1 ? (" año"):(" años")) + " "+ months + (months == 1 ?(" mes"):(" meses")))
           }
           currentJob()
 })
