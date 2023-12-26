@@ -30,7 +30,7 @@ article#skills img{width: 40px; height: 40px; margin: 0 auto;}
 
 article#experience{ margin: 0 auto; width: 80%; display: flex; flex-wrap: wrap; flex-direction: row; justify-content: space-around; gap: 10px;}
 article#experience h2{ color:var(--hover-primary); text-align: center; width: 100%; padding: 20px 0;}
-article#experience div{ text-align: center; width: 30%; border: 1px solid;border-radius: 10px;box-shadow: 10px 5px 5px black; padding: 30px 10px;}
+article#experience div{ text-align: center; width: 40%; border: 1px solid;border-radius: 10px;box-shadow: 10px 5px 5px black; padding: 30px 10px;}
 
 @keyframes typing {from {width: 0;}}
 @keyframes blink {50% {border-color: transparent;}}
