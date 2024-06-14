@@ -1,17 +1,14 @@
-import * as CookieConsent from "vanilla-cookieconsent";
-import "vanilla-cookieconsent/dist/cookieconsent.css";
+<template>
+  <button type="button" @click="CookieConsent.showPreferences()">
+    Show preferences modal
+  </button>
+</template>
 
-
-export default {
-    install: (app, pluginConfig) => {
-        app.config.globalProperties.$CookieConsent = CookieConsent;
-        app.config.globalProperties.$CookieConsent.run(pluginConfig);
-    }
-}
-
+<script setup lang="ts">
+import 'vanilla-cookieconsent/dist/cookieconsent.css';
+import * as CookieConsent from 'vanilla-cookieconsent';
 import 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js';
 
-// Enable dark mode
 document.documentElement.classList.add('cc--darkmode');
 
 CookieConsent.run({
@@ -81,3 +78,4 @@ CookieConsent.run({
     },
     disablePageInteraction: true
 });
+</script>

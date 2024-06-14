@@ -2,7 +2,6 @@
 import Footer from '@/components/Footer.vue'
 
 </script>
-
 <template>
   <div class="h-full">
 
