@@ -1,6 +1,6 @@
 <template>
-  <button type="button" @click="CookieConsent.showPreferences()">
-    Show preferences modal
+  <button type="button" @click="CookieConsent.showPreferences()" class="flex">
+    <span class="material-icons-sharp">settings</span>Show preferences modal
   </button>
 </template>
 
