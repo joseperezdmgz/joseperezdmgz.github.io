@@ -4,12 +4,12 @@ import Foto from '@/components/Foto.vue'
 
 </script>
 <template>
-  <div class="flex flex-col justify-center items-center gap-1 h-full md:gap-20 sm:flex-row py-10">
+  <div class="flex flex-col justify-center items-center gap-1 lg:h-full md:gap-20 sm:flex-row py-10">
     <Foto/>
     <div class="max-w-[80%] flex flex-col gap-3 sm:max-w-[40%]">
-        <h2 class="text-[--primary]">¡HOLA!</h2>
+        <h2 class="text-[--secondary]">¡HOLA!</h2>
         <h1 class="title text-2xl md:text-3xl block mb-4">Jose Pérez Domínguez</h1>
-        <p class="text-xl dark:text-gray-300 leading-8">¿Buscas un <span class="text-[--primary]">desarrollador fullstack</span>? Tu búsqueda termina aquí. Como <span class="text-[--secondary]">Ingeniero de Software Senior profesional</span>, sobresalgo en el dinámico mundo del desarrollo web, la tecnología y los proyectos de código abierto. Con experiencia en Vue.js, Laravel, PHP y desarrollo fullstack, estoy listo para aportar <span class="text-[--secondary]">innovación y excelencia</span> a cada proyecto.</p>
+        <p class="text-xl dark:text-gray-300 leading-8">¿Buscas un <span class="texttext-[--secondary]">desarrollador fullstack</span>? Tu búsqueda termina aquí. Como <span class="text-[--secondary]">Ingeniero de Software Senior profesional</span>, sobresalgo en el dinámico mundo del desarrollo web, la tecnología y los proyectos de código abierto. Con experiencia en Vue.js, Laravel, PHP y desarrollo fullstack, estoy listo para aportar <span class="text-[--secondary]">innovación y excelencia</span> a cada proyecto.</p>
     </div>
   </div>
   <Footer/>
