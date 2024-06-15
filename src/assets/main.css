@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  --primary: black;
+  --secondary: orange;
+  --bg-primary: beige;
+}
 
-:root {
-    --yellow: #edfc56;
-  }
+html.dark {
+  --primary: white;
+  --secondary: #edfc56;
+  --bg-primary: linear-gradient(90deg, rgba(48,57,68,1) 0%, rgba(34,41,48,1) 56%, rgba(30,41,54,1) 100%);
+}
+
+html{ background: var(--bg-primary); color: var(--primary); }
+
+  
+* { padding: 0; margin: 0; }
+html, 
+body{ height: 100%; width: 100%; }
+@media (max-width: 1024px) {
+  html aside{ background: var(--bg-primary) }
+}

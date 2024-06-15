@@ -1,9 +1,7 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
 
+</script>
 <template>
-  <div>
-    <h1>Portfolio</h1>
-  </div>
+    <div class="h-full">
+    </div>
 </template>
