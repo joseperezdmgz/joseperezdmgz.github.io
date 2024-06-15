@@ -1,8 +1,3 @@
-<script setup>
-import Footer from '@/components/Footer.vue'
-import Foto from '@/components/Foto.vue'
-
-</script>
 <template>
   <div class="flex flex-col justify-center items-center gap-1 lg:h-full md:gap-20 sm:flex-row py-10">
     <Foto/>
@@ -15,9 +10,14 @@ import Foto from '@/components/Foto.vue'
   <Footer/>
 </template>
 
-
 <style>
   h1.title {white-space: nowrap; border-right: 4px solid; width: 20ch ;animation: typing 2s steps(20), blink 0.5s infinite step-end alternate; overflow: hidden;}
   @keyframes typing {from {width: 0;}}
   @keyframes blink {50% {border-color: transparent;}}
 </style>
+
+<script setup>
+import Footer from '@/components/Footer.vue'
+import Foto from '@/components/Foto.vue'
+
+</script>

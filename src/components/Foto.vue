@@ -11,6 +11,6 @@ import foto from "@/assets/foto.webp";
                 <animate id="b" attributeName="stroke-opacity" values="0;1" dur=".25s" repeatCount="1" fill="freeze"></animate>
             </circle>
         </svg>
-        <img :src="foto" alt="" class="w-[250px] rounded-full p-3 self-center col-start-1 row-start-1 justify-self-center">
+        <img :src="foto" alt="" width="250px" class="rounded-full p-3 self-center col-start-1 row-start-1 justify-self-center">
     </div>
 </template>
