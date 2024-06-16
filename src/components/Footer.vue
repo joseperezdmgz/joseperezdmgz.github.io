@@ -1,7 +1,7 @@
 <template>
   <footer class="flex flex-col md:flex-row gap-6 justify-around items-center py-6 relative bottom-0 w-full">
     <div class="flex gap-3 flex-col text-center md:flex-row md:gap-6 md:text-left">
-      <p class="dark:text-gray-400">Contáctame:</p>
+      <p class="text-[--tertiary]">Contáctame:</p>
       <div class="flex gap-3 md:gap-6">
         <template v-for="link in footerLinks" :key="link.id">
           <Link :href="link.url">

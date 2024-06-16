@@ -9,10 +9,7 @@
       <RouterLink to="/" class="text-xl hover:text-[--secondary] z-10">JOSE PÉREZ</RouterLink>
       <div class="flex gap-20">
         <aside class="overflow-hidden left-0 transition-all duration-300 items-center pt-[20vh] lg:pt-0 top-0 ring-0 w-0 gap-20 flex lg:flex-row flex-col lg:w-auto lg:h-auto h-dvh absolute lg:relative" :class="{ 'w-full': isMenuOpen }">
-          <RouterLink @click="toggleMenu" class="hover:text-[--secondary]" activeClass="text-[--secondary]" to="/">Home</RouterLink>
-          <RouterLink @click="toggleMenu" class="hover:text-[--secondary]" activeClass="text-[--secondary]" to="/portfolio">Portfolio</RouterLink>
-          <RouterLink @click="toggleMenu" class="hover:text-[--secondary]" activeClass="text-[--secondary]" to="/blog">Blog</RouterLink>
-          <RouterLink @click="toggleMenu" class="hover:text-[--secondary]" activeClass="text-[--secondary]" to="/about">About</RouterLink>
+          <RouterLink v-for="item in navLink" @click="toggleMenu" class="hover:text-[--secondary]" activeClass="text-[--secondary]" :to="item.url">{{item.name}}</RouterLink>
         </aside>
         <DarkMode/>
       </div>
@@ -30,7 +27,25 @@ const isMenuOpen = ref(false);
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
 };
-
+    
+const navLink = [
+  {
+    name : "Home",
+    url : "/"
+  },
+  {
+    name:" Portfolio",
+    url:  "/portfolio"
+  },
+  // {
+  //   name:"Blog",
+  //   url:"/blog"
+  // },
+  {
+    name:"About",
+    url:"/about"
+  },
+  ]
 
 </script>
 

@@ -1,6 +1,6 @@
 <template>
-  <button @click="toggleDarkMode" class="z-10">
-      <span class="material-icons md:hover:text-[--secondary]">{{ isDarkMode ? 'nightlight_round' : 'wb_sunny' }}</span>
+  <button @click="toggleDarkMode" class="z-10 flex justify-center">
+      <span class="material-icons md:hover:text-[--secondary]">{{ isDarkMode ? 'wb_sunny' : 'nightlight_round' }}</span>
   </button>
 </template>
 
