@@ -12,20 +12,20 @@
   CookieConsent.run({
     onConsent: function(){
         if(CookieConsent.acceptedCategory('analytics')){
-            console.log('Consent Analitics')
-        }
-        
-        if(CookieConsent.acceptedService('Google Analytics', 'analytics')){
-            console.log('Google')
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-MNLGTQ73EL');
         }
     },
     onChange: function(){
         if(CookieConsent.acceptedCategory('analytics')){
-            console.log('Change')
-        }
-        
-        if(CookieConsent.acceptedService('Google Analytics', 'analytics')){
-            console.log('Google')
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-MNLGTQ73EL');
         }
     },
       guiOptions: {
@@ -47,11 +47,7 @@
               readOnly: true
           },
           analytics: {
-            services: {
-                google: {
-                label: 'Google Analytics',
-                },
-            },
+            
           }
       },
       language: {

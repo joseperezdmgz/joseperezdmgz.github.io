@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center items-center gap-1 lg:h-full md:gap-20 sm:flex-row py-10">
+  <div class="flex flex-col justify-center items-center gap-1 min-h-[80vh] md:gap-20 sm:flex-row py-10">
     <Foto/>
     <div class="max-w-[80%] flex flex-col gap-3 sm:max-w-[40%]">
         <h2 class="text-[--secondary]">¡HOLA!</h2>

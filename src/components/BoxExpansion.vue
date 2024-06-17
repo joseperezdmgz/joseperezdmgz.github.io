@@ -35,7 +35,7 @@
           {{ exp.location }}
         </p>
       </li>
-      <li class="w-2/3 p-5">
+      <li class="md:w-2/3 w-full p-5">
         <ul class="list-disc flex flex-col gap-5">
           <li v-for="desc in exp.description">{{ desc }}</li>
         </ul>
