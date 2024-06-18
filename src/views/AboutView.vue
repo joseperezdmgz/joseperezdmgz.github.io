@@ -3,7 +3,7 @@
       <h1 class="text-2xl md:text-4xl block my-4">About me</h1>
       <Subtitle name="Perfil"/>
       <div class="block">
-        <img :src="img" alt="" class="rounded-full float-none ml-0 p-0 absolute md:static right-4 top-28 md:float-right h-28 md:h-60 md:ml-2" style="shape-outside: ellipse()">
+        <img :src="img" alt="Foto de más sobre mí" class="rounded-full float-none ml-0 p-0 absolute md:static right-4 top-28 md:float-right h-28 md:h-60 md:ml-2" style="shape-outside: ellipse()">
         <p> Lorem ipsum <span>dolor sit amet, consectetur adipiscing elit</span>. Fusce egestas elit in urna scelerisque, nec ultrices nisl pellentesque. Etiam nec <span class="text-[--secondary]">massa ac velit aliquet pretium</span>. Praesent et ante vitae erat ultricies consequat. Vestibulum <span class="text-[--secondary]">consectetur</span> odio a facilisis lobortis. </p>
         <p> Lorem ipsum <span>dolor sit amet, consectetur adipiscing elit</span>. Fusce egestas elit in urna scelerisque, nec ultrices nisl pellentesque. Etiam nec <span class="text-[--secondary]">massa ac velit aliquet pretium</span>. Praesent et ante vitae erat ultricies consequat. Vestibulum <span class="text-[--secondary]">consectetur</span> odio a facilisis lobortis. </p>
         <br>
@@ -35,6 +35,7 @@ const experiences = [
     date_end: 'presente',
     position: 'Fullstack Developer',
     img: idearium_img,
+    alt: 'Logo de la empresa Idearium',
     location: 'Madrid, España',
     description: [
       'Descripción de la experiencia laboral...',
@@ -47,6 +48,7 @@ const experiences = [
     date_end: '10/2022',
     position: 'Fullstack Developer',
     img: astibot_img,
+    alt: 'Logo de la empresa Astibot',
     location: 'Valladolid, España',
     description: [
       'Descripción de la experiencia laboral...',

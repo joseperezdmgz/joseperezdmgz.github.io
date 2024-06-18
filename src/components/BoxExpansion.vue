@@ -28,7 +28,7 @@
     </li>
     <ul class="flex flex-col md:flex-row min-h-28 bg-[--bg-box-expansion] p-5" v-if="menuOpen[index]">
       <li class="md:w-1/3 w-full px-10 flex flex-col items-center justify-center gap-3">
-        <img :src="exp.img" alt="" class="block md:w-4/5 w-20">
+        <img :src="exp.img" :alt="exp.alt" class="block md:w-4/5 w-20 rounded">
         <p>{{ exp.business }}</p>
         <p class="flex items-center gap-3 text-[--tertiary]">
           <span class="material-icons !text-sm">fmd_good</span>
