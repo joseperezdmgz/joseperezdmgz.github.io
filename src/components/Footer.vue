@@ -4,7 +4,7 @@
       <p class="text-[--tertiary]">Contáctame:</p>
       <div class="flex gap-3 md:gap-6">
         <template v-for="link in footerLinks" :key="link.id">
-          <Link :href="link.url">
+          <Link :href="link.url" :arialabel="link.arialabel">
             <component :is="link.component" />
           </Link>
         </template>
@@ -23,10 +23,10 @@ import Download from '@/components/icons/Download.vue'
 import Link from '@/components/Link.vue'
 
 const footerLinks = [
-  { id: 1, component: Mail, url: 'mailto:joseperezdmgz@gmail.com' },
-  { id: 2, component: GitHub, url: 'https://github.com/joseperezdmgz' },
-  { id: 3, component: LinkedIn, url: 'https://www.linkedin.com/in/joseperezdmgz' },
-  { id: 4, component: Download, url: '' },
+  { id: 1, component: Mail, url: 'mailto:joseperezdmgz@gmail.com', arialabel: 'Enviar correo a joseperezdmgz@gmail.com' },
+  { id: 2, component: GitHub, url: 'https://github.com/joseperezdmgz', arialabel: 'Perfil de GitHub de joseperezdmgz' },
+  { id: 3, component: LinkedIn, url: 'https://www.linkedin.com/in/joseperezdmgz', arialabel: 'Perfil de LinkedIn de joseperezdmgz' },
+  { id: 4, component: Download, url: '', arialabel: 'Descargar archivo' },
 ];
 
 </script>
