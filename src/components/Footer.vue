@@ -21,12 +21,13 @@ import GitHub from '@/components/icons/GitHub.vue'
 import LinkedIn from '@/components/icons/LinkedIn.vue'
 import Download from '@/components/icons/Download.vue'
 import Link from '@/components/Link.vue'
+import CV from '@/assets/JosePerez.pdf'
 
 const footerLinks = [
   { id: 1, component: Mail, url: 'mailto:joseperezdmgz@gmail.com', arialabel: 'Enviar correo a joseperezdmgz@gmail.com' },
   { id: 2, component: GitHub, url: 'https://github.com/joseperezdmgz', arialabel: 'Perfil de GitHub de joseperezdmgz' },
   { id: 3, component: LinkedIn, url: 'https://www.linkedin.com/in/joseperezdmgz', arialabel: 'Perfil de LinkedIn de joseperezdmgz' },
-  { id: 4, component: Download, url: '', arialabel: 'Descargar archivo' },
+  { id: 4, component: Download, url: CV, arialabel: 'Descargar archivo' },
 ];
 
 </script>

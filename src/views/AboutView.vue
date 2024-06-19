@@ -1,18 +1,16 @@
-<template>
+<template>  
   <div class="lg:w-4/5 w-11/12 mx-auto pb-10">
       <h1 class="text-2xl md:text-4xl block my-4">About me</h1>
       <Subtitle name="Perfil"/>
       <div class="block">
         <img :src="img" alt="Foto de más sobre mí" class="rounded-full float-none ml-0 p-0 absolute md:static right-4 top-28 md:float-right h-28 md:h-60 md:ml-2" style="shape-outside: ellipse()">
-        <p> Lorem ipsum <span>dolor sit amet, consectetur adipiscing elit</span>. Fusce egestas elit in urna scelerisque, nec ultrices nisl pellentesque. Etiam nec <span class="text-[--secondary]">massa ac velit aliquet pretium</span>. Praesent et ante vitae erat ultricies consequat. Vestibulum <span class="text-[--secondary]">consectetur</span> odio a facilisis lobortis. </p>
-        <p> Lorem ipsum <span>dolor sit amet, consectetur adipiscing elit</span>. Fusce egestas elit in urna scelerisque, nec ultrices nisl pellentesque. Etiam nec <span class="text-[--secondary]">massa ac velit aliquet pretium</span>. Praesent et ante vitae erat ultricies consequat. Vestibulum <span class="text-[--secondary]">consectetur</span> odio a facilisis lobortis. </p>
-        <br>
-        <p> Aliquam quis erat <span class="text-[--secondary]">volutpat, hendrerit dui sed, suscipit ligula</span>. Quisque tincidunt, magna a fringilla gravida, nisl lacus volutpat felis, sed hendrerit nunc augue non neque. Curabitur <span class="text-[--secondary]">id ornare ligula, sed suscipit velit.</span></p>
+        <p>Soy un desarrollador <span class="text-[--secondary]">Full Stack</span> con experiencia en numerosos proyectos, desempeñando el papel tanto en el <span class="text-[--secondary]">frontend</span> como en el <span class="text-[--secondary]">backend</span>. Mi compromiso con el aprendizaje continuo me impulsa a buscar constantemente nuevos desafíos y oportunidades de crecimiento profesional. Aspiro a integrarme en un equipo de desarrollo donde pueda colaborar con profesionales comprometidos para alcanzar objetivos comunes.</p><br>
+        <p>Destaco por mi capacidad para <span class="text-[--secondary]">garantizar la calidad del producto final</span> y por realizar <span class="text-[--secondary]">pruebas exhaustivas de usabilidad y funcionalidad</span> para asegurar la mejor experiencia de usuario posible. Mi experiencia abarca el manejo de diversas tecnologías, incluyendo <span class="text-[--secondary]">Laravel, Node.js, CodeIgniter, VueJS, React, AWS y MySQL</span>, lo que me permite desarrollar herramientas eficaces para la optimización de procesos.</p><br>
       </div>
       <BoxExpansion name="Experiencia" :items="experiences"/>
       <BoxExpansion name="Educación" :items="education" :formation="true" />
       <InfoBox name="Skills" :items="skills"/>
-      <InfoBox name="Idiomas" :items="languajes"/>
+      <InfoBox name="Idiomas" :items="languages"/>
       <InfoBox name="Intereses" :items="interests"/>
   </div>
   <Footer/>
@@ -38,8 +36,12 @@ const experiences = [
     alt: 'Logo de la empresa Idearium',
     location: 'Madrid, España',
     description: [
-      'Descripción de la experiencia laboral...',
-      'Descripción de la experiencia laboral...',
+      'Brindar soporte técnico durante todas las etapas del proyecto, desde la reunión inicial hasta la publicación final.',
+      'Participar en el diseño web, maquetación, desarrollo y programación.',
+      'Manejar diversas bases de datos y trabajar en contextos de backend y frontend.',
+      'Crear herramientas para la optimización de procesos.',
+      'Garantizar el cumplimiento de los estándares de calidad y realizar pruebas exhaustivas para verificar la funcionalidad y el rendimiento del software, asegurando entregas de calidad y sin errores.',
+      'Laravel, CodeIgniter, VueJS, AWS, MySQL'
     ]
   },
   {
@@ -51,8 +53,9 @@ const experiences = [
     alt: 'Logo de la empresa Astibot',
     location: 'Valladolid, España',
     description: [
-      'Descripción de la experiencia laboral...',
-      'Descripción de la experiencia laboral...',
+      'Realizar pruebas de usabilidad y funcionalidad para garantizar la calidad del sitio web.',
+      'Colaborar con los equipos de marketing y diseño para optimizar la experiencia del usuario.',
+      'Drupal,Java,PHP,jQuery,JavaScript',
     ]
   },
 ];
@@ -64,12 +67,12 @@ const education = [{
     img: hackaboss_img,
     location: 'A Coruña, España',
     description: [
-      'Bootcamp de Programación Web Full Stack Javascript de 400 horas de duración.',
-      'HTML, JavaScript, CSS, SQL, Node.js, React, Workshops, Proyecto'
+      'En este bootcamp intensivo de 400 horas, adquirí habilidades exhaustivas en desarrollo web full stack utilizando tecnologías clave como HTML, JavaScript, CSS, SQL, Node.js y React. Participé en workshops prácticos y culminé el curso desarrollando un proyecto completo, consolidando mi experiencia en el campo de la programación web.',
     ]
   }]
 
-const skills = ['Node','React']
-const languajes = ['Español','Gallego']
-const interests = ['Español','React']
+const skills = ['Node', 'React', 'JavaScript', 'PHP', 'CSS', 'HTML', 'CodeIgniter', 'Laravel', 'Symfony', 'AWS', 'EC2', 'RDS', 'Cloudfront', 'GitHub', 'GitLab', 'MySQL', 'Apache', 'Linux', 'MacOS', 'Vue.js', 'Angular', 'Docker', 'Visual Studio Code', 'Tailwind CSS'];
+const languages = ['Español', 'Gallego'];
+const interests = ['Desarrollo Web', 'Tecnologías de la Nube', 'Seguridad Informática', 'Metodologías Ágiles', 'Desarrollo Frontend', 'Desarrollo Backend', 'Open Source', 'Innovación Tecnológica','SCRUM',];
+
 </script>
