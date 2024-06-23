@@ -4,7 +4,7 @@
     <div class="max-w-[80%] flex flex-col gap-3 sm:max-w-[40%]">
       <h2 class="text-[--secondary]">¡HOLA!</h2>
       <h1 class="title text-2xl md:text-3xl block mb-4">Jose Pérez Domínguez</h1>
-      <p class="text-xl text-[--tertiary] leading-8">¿Buscas un <span class="text-[--secondary]">Desarrollador Fullstack</span>? Tu búsqueda termina aquí. Como <span class="text-[--secondary]">Desarrollador de Software</span>, sobresalgo en el dinámico mundo del desarrollo web, la tecnología y los proyectos de código abierto. Con experiencia en Vue.js, Laravel, PHP y desarrollo fullstack, estoy listo para aportar <span class="text-[--secondary]">innovación y excelencia</span> a cada proyecto.</p>
+      <p class="text-xl text-[--tertiary] leading-8">¿Buscas un <span class="text-[--secondary]">desarrollador Full Stack</span>? Como Desarrollador de Software, me destaco por mi profundo conocimiento en el dinámico mundo del desarrollo web, la tecnología y los proyectos de código abierto. Con experiencia en <span class="text-[--secondary]">Vue.js, Laravel, PHP</span> entre otras, estoy listo para aportar innovación y excelencia a cada proyecto.</p>
     </div>
   </div>
   <Footer/>
