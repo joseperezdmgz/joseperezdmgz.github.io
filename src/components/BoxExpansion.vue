@@ -20,7 +20,7 @@
         {{ exp.position }}
       </div>
       <span 
-        class="material-icons transform transition-transform duration-300 absolute lg:static right-4 !flex h-full items-center top-0" 
+        class="material-icons transform transition-transform duration-300 absolute lg:static right-6 !flex h-full items-center top-0" 
         :class="menuOpen[index] ? 'rotate-90' : '-rotate-90'"
       >
         arrow_back_ios_new
