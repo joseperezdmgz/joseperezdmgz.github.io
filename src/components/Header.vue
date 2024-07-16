@@ -30,22 +30,26 @@ const toggleMenu = () => {
     
 const navLink = [
   {
-    name : "Home",
+    name : "Início",
     url : "/"
   },
   {
-    name:" Portfolio",
+    name:"Sobre mí",
+    url:"/about"
+  },
+  {
+    name:"Portfolio",
     url:  "/portfolio"
   },
+  // {
+  //   name:"Contacto",
+  //   url:"/contact"
+  // },
   // {
   //   name:"Blog",
   //   url:"/blog"
   // },
-  {
-    name:"About",
-    url:"/about"
-  },
-  ]
+]
 
 </script>
 

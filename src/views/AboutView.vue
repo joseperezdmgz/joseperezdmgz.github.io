@@ -1,6 +1,6 @@
 <template>  
   <div class="lg:w-4/5 w-11/12 mx-auto pb-10">
-      <h1 class="text-2xl md:text-4xl block my-4">About me</h1>
+      <h1 class="text-2xl md:text-4xl block my-4">Sobre mí</h1>
       <Subtitle name="Perfil"/>
       <div class="block">
         <img :src="img" alt="Foto de más sobre mí" class="rounded-full float-none ml-0 p-0 absolute md:static right-4 top-28 md:float-right h-28 md:h-60 md:ml-2" style="shape-outside: ellipse()">

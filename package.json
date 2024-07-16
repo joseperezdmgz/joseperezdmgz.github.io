@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@material-design-icons/font": "^0.14.13",
+    "axios": "^1.7.2",
+    "sweetalert2": "^11.12.2",
     "vanilla-cookieconsent": "^3.0.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"

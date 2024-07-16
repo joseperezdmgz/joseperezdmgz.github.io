@@ -1,6 +1,6 @@
 <template>
     <button type="button" @click="CookieConsent.showPreferences()" class="flex gap-1 items-center text-xs uppercase hover:text-[--secondary]">
-      <span class="material-icons-sharp">settings</span>Privacy Preferences
+      <span class="material-icons-sharp">settings</span>Ajustes privacidad
     </button>
   </template>
   
