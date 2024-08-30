@@ -1,5 +1,5 @@
 <template>
-    <li v-for="card in props.cards" class="bg-[--bg-box-expansion] rounded flex gap-3 mt-10 overflow-hidden flex-col md:flex-row md:w-full w-4/5 mx-auto p-5">
+    <li v-for="card in props.cards" class="bg-[--bg-box-expansion] rounded flex gap-3 mt-10 overflow-hidden flex-col md:flex-row w-full mx-auto p-5">
       <div class="w-full lg:w-1/4">
         <img :src="card.img" class="w-full rounded" alt="">
       </div>
