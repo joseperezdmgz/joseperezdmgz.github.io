@@ -30,7 +30,7 @@ const toggleMenu = () => {
     
 const navLink = [
   {
-    name : "Início",
+    name : "Inicio",
     url : "/"
   },
   {
@@ -41,10 +41,10 @@ const navLink = [
     name:"Portfolio",
     url:  "/portfolio"
   },
-  // {
-  //   name:"Contacto",
-  //   url:"/contact"
-  // },
+  {
+    name:"Contacto",
+    url:"/contact"
+  },
   // {
   //   name:"Blog",
   //   url:"/blog"
