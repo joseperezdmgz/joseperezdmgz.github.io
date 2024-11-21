@@ -62,6 +62,7 @@
       date_start: '04/2021',
       position: 'Bootcamp',
       img: 'https://logo.clearbit.com/hackaboss.com',
+      alt: 'Logo de la empresa HackABoss',
       location: 'A Coruña, España',
       description: [
         'En este <i>bootcamp</i> intensivo de 400 horas, adquirí habilidades exhaustivas en desarrollo web full stack utilizando tecnologías clave como HTML, JavaScript, CSS, SQL, Node.js y React. Participé en <i>workshops</i> prácticos y culminé el curso desarrollando un proyecto completo, consolidando mi experiencia en el campo de la programación web.',

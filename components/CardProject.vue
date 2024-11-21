@@ -1,7 +1,7 @@
 <template>
     <li v-for="card in props.cards" class="bg-[--bg-box-expansion] rounded flex gap-3 mt-10 overflow-hidden flex-col md:flex-row w-full mx-auto p-5">
       <div class="w-full lg:w-1/4">
-        <img :src="card.img" class="w-full rounded" alt="">
+        <img :src="card.img" class="w-full rounded" :alt="card.alt">
       </div>
       <div class="w-full lg:w-3/4 md:px-4 relative">
         <p class="font-bold text-xl pb-4">{{ card.title }}</p>

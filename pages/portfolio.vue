@@ -18,12 +18,14 @@ const proyectos = [
         "title" : "La Velada del Año 4",
         "link" : "https://lavelada.es/",
         "img" : velada,
+        "alt" : 'Web oficial de la velada',
         "desc" : "Colaboré en el desarrollo de la web para La Velada del Año 4, creada por Midudev. Realicé ajustes estéticos en la ordenación de imágenes para mejorar las animaciones. Aunque fue una contribución menor, mi trabajo se incorporó en la versión final, demostrando mi capacidad para colaborar en proyectos de alto perfil y trabajar en equipo."
     },
     {
         "title" : "Old is Gold",
         "link" : "https://dms.licdn.com/playlist/vid/C5605AQGU5FOrTq5LGw/mp4-640p-30fp-crf28/0/1616149263339?e=2147483647&v=beta&t=s4gDeH8RpQ1isZA4cRSUSNniM16exR8A-bsvMypCeck",
         "img" : oldisgold,
+        "alt" : 'Web final formación HackABoss',
         "desc" : "Plataforma de comercio electrónico usando React para el frontend y Node.js para el backend. La aplicación permite a los usuarios listar, buscar y comprar artículos de segunda mano, con funcionalidades como autenticación segura, gestión de productos y un sistema de búsqueda avanzado."
     },
 ]
